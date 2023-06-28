@@ -1,0 +1,16 @@
+<!--pages/kepu/kepu.wxml-->
+<view class="datas-show">
+  <block wx:for="{{knowledgeList}}" wx:key="item">
+    <view class="goods-item">
+        <navigator url="/pages/wenzhang/wenzhang">
+          <image src="{{item.img}}" class="goods-img"></image>
+        </navigator>  
+        <view>
+        <text class="goods-title">{{item.title}}</text>
+        </view>
+        <view>
+        <text class="goods-author">{{item.author}}</text>
+        </view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,96 @@
+<!--pages/my/my.wxml-->
+ <view class="user_img_wrap" wx:if="{{userinfo.avatarUrl}}">
+   <image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+   <view  class="user_info">
+      <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+   </view>
+</view>
+<view  wx:else class="user_info_wrap">
+   <view  class="user_btn">
+      <navigator url="/pages/login/login">登录</navigator>
+   </view>
+</view>
+
+<view  class="user-info">
+   <view class="user-main">
+    <view class="history-wrap"> 
+      <navigator>
+       <view class="it-num">3</view>
+       <view class="it-name">讨论</view>
+      </navigator>
+      <navigator>
+       <view class="it-num">3</view>
+       <view class="it-name">关注</view>
+      </navigator>
+      <navigator>
+       <view class="it-num">3</view>
+       <view class="it-name">徽章</view>
+      </navigator>
+    </view>  
+    <view class="user-wrap">
+      <view  class="item-info">
+         <view class="item-image1">
+         <image src="../../icon/fenxiang.png"></image>
+         </view>
+         <view  class="item-content">分享给朋友</view>
+         <view  class="item-image2">  
+         <navigator>
+            <image src="../../icon/more.png"></image>
+         </navigator>
+         </view>
+      </view>
+      <view  class="item-info">
+         <view class="item-image1">
+         <image src="../../icon/shoucang.png"></image>
+         </view>
+         <view  class="item-content">我的收藏</view>
+         <view  class="item-image2">  
+         <navigator>
+            <image src="../../icon/more.png"></image>
+         </navigator>
+         </view>
+      </view>
+      <view  class="item-info">
+         <view class="item-image1">
+         <image src="../../icon/pingjia.png"></image>
+         </view>
+         <view  class="item-content">我的评价</view>
+         <view  class="item-image2">  
+         <navigator>
+            <image src="../../icon/more.png"></image>
+         </navigator>
+         </view>
+      </view>
+      <view  class="item-info">
+         <view class="item-image1">
+         <image src="../../icon/kefu.png"></image>
+         </view>
+         <view  class="item-content">
+           <button class="button" open-type="contact">客服中心</button>
+         </view>
+         <view  class="item-image2">  
+         <navigator>
+            <image src="../../icon/more.png"></image>
+         </navigator>
+         </view>
+      </view>
+      <view  class="item-info">
+         <view class="item-image1">  
+         <image src="../../icon/shuoming.png"></image>
+         </view>
+         <view  class="item-content">协议和说明</view>
+         <view  class="item-image2">  
+         <navigator>
+            <image src="../../icon/more.png"></image>
+         </navigator>
+         </view>
+      </view> 
+    </view>
+    <view class="user-back">
+      <navigator >退出账号</navigator>
+    </view>  
+   </view>
+</view>
+
+

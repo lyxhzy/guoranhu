@@ -1,0 +1,11 @@
+
+<view class="cr-content">
+        <block  wx:for="{{circleList}}" wx:key="item">
+         <navigator  open-type="navigate" hover-class="none" >
+           <view>
+              <image src="{{item.src}}" class="cr-img"></image>
+           </view>
+           <view class="cr-title">{{item.title}}</view>  
+         </navigator>
+        </block>
+</view>

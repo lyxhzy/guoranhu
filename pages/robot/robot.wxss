@@ -1,0 +1,42 @@
+.msgBox{
+  display:flex;
+  margin-top: 20rpx;
+}
+.inputBox{
+  position:fixed;
+  bottom:0px;
+  z-index:1;
+  width:95%;
+}
+.inputContent{
+  background-color: #fff;
+  margin-left: 25rpx;
+  height: 80rpx;
+  width: 70%;
+  float:left;
+}
+.btnSendMsg{
+  text-align: center;
+  width:24%;
+  float:right;
+}
+.msgItem{
+  margin: 15rpx 15rpx;
+}
+
+.adverseHeading{
+  height:90rpx;
+  width:90rpx;
+}
+
+.outputItem{
+  background-color: #fff;
+  height: 200rpx;
+  width:80%;
+  margin-left: 20rpx;
+  border-radius: 10%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}

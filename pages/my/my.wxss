@@ -1,0 +1,155 @@
+/* pages/my/my.wxss */
+.me-info{
+  height:270rpx;  
+  display: flex;  
+  background:-webkit-linear-gradient(left,#e9dac8,#db7b45,#d36e2b); 
+  justify-items: center;
+  align-items: center;  
+}
+.user_img_wrap{
+  position: relative; 
+}
+.user_img_wrap .user_bg{
+  width: 100%;
+  height:50vh;
+  filter:blur(10rpx);
+}
+.user_img_wrap .user_info{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:30%;
+  text-align: center;
+}
+.user_img_wrap .user_info .user_icon{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius:50%;
+}
+.user_img_wrap .user_info .user_name{
+  color:#fff;
+}
+
+.user_info_wrap{
+  height:45vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position:relative;
+}
+.user_btn{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:40%;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  font-size:38rpx;
+  padding:30rpx;
+  border-radius:10rpx;
+}
+
+.image1{  
+  margin-left: 50rpx;
+  width: 130rpx;
+  height:130rpx;  
+}
+.image2{
+  margin-left: 350rpx;
+  width: 50rpx;
+  height: 50rpx;   
+}
+.top-info{
+  margin-left: 30rpx;
+}
+.na-info{
+  font-size: 55rpx;
+  font-weight: bold;  
+  color: #2e2e2e;
+}
+.le-info{
+  font-size: 20rpx;
+  font-weight: bold;  
+  color: #2e2e2e;
+}
+
+.user-info{
+  position: relative;
+}
+.user-main{
+  position: absolute;  
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  top:-40rpx;  
+}
+.history-wrap{
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 15rpx;
+} 
+.history-wrap navigator{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.it-num{
+  font-weight: bold;
+}
+.it-name{
+  color:#858584;  
+}
+
+.user-wrap{
+  margin-top: 10rpx;
+  background-color: #ffffff;
+  padding: 30rpx 20rpx;
+  border-radius: 25rpx;  
+}
+.item-info{
+  margin-top: 10rpx;
+  display: flex; 
+}
+.item-image1 image{
+  flex:2;
+  margin-left: 20rpx;
+  width: 50rpx;
+  height: 50rpx;  
+}
+.item-content{
+  flex: 2;
+  margin-left: 20rpx;
+ 
+}
+.button{
+  width: 100%;
+  background: white;
+  border:none;
+  text-align:left;
+  padding:0px;
+  margin:0px;
+  line-height:1.3;
+  font-size:16px;
+  text-emphasis: none;
+}
+.button::after{
+  border:none;
+  border-radius:0;
+}
+.item-image2 image{
+  flex: 3;
+  width: 30rpx;
+  height: 30rpx;  
+}
+
+.user-back  navigator{
+  display: flex;
+  margin: 35rpx  35%;
+  width: 200rpx;
+  height: 65rpx;
+  background-color: #d8a691;  
+  color: #ffffff; 
+  justify-content: center;
+  align-items: center;  
+  border-radius: 10rpx;
+}
+

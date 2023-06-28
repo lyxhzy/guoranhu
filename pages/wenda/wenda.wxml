@@ -1,0 +1,7 @@
+<!--pages/wenda/wenda.wxml-->
+<view class="root-info">
+    <navigator url="/pages/robot/robot">
+        <image src="../../icon/root.png" class="root-img"></image>
+        <view class="root">果然乎机器人</view>
+    </navigator>
+</view>

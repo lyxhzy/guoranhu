@@ -1,0 +1,42 @@
+/* components/navigation-bar/navigation-bar.wxss */
+.nav-bar{ 
+  display: flex;  
+  position: fixed; 
+  width: 100%; 
+  top: 0;
+  color:#fff; 
+  background: #d36e2b;  
+  padding: 10rpx;  
+  }
+.nav-bar .search {   
+  display: flex; 
+  height: 70rpx;
+  width: 400rpx;
+  margin-left: 30rpx; 
+  margin-top: 30rpx;
+  background-color: #fff;
+  border-radius: 50rpx;
+}  
+.ts-img image{    
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 45rpx;
+  margin-left: 50rpx;
+}
+
+ navigator .img1{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 13rpx;
+  margin-top: 12rpx;
+}
+.in-search{
+  height: 100%;
+  width: 74%;
+  
+}
+ navigator .img2{  
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 12rpx;
+}

@@ -1,0 +1,7 @@
+<!--pages/wenzhang/wenzhang.wxml-->
+<view class="fruit_content">
+  <view class="fruit_title">{{fruitInfo.data.title}}</view>
+  <view class="fruit_author">{{fruitInfo.data.author}}</view>
+  <view class="fruit_body">{{fruitInfo.data.body}}</view>
+</view>
+

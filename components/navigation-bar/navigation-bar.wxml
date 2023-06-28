@@ -1,0 +1,18 @@
+<!--components/navigation-bar/navigation-bar.wxml-->
+<view class="nav-bar" style="height:{{navBarHeight}}px;" >
+   <view class="ts-img">
+      <navigator>
+        <image src="../../icon/tishi.png"></image>
+      </navigator>
+   </view>
+   <view class="search">
+      <navigator>
+         <image src="../../icon/sousuo.png" class="img1"></image> 
+      </navigator>
+      <input type="text"class="in-search"></input>
+      <navigator>
+         <image src="../../icon/saomao.png" class="img2"></image>  
+      </navigator>
+   </view>    
+</view>  
+<view class="content"  style="margin-top:{{navBarHeight}}px;"></view>  

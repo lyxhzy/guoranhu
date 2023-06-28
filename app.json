@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/shequ/shequ",
+    "pages/kepu/kepu",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wenda/wenda",
+    "pages/my/my",
+    "pages/pinglun/pinglun",
+    "pages/fabu/fabu",
+    "pages/login",
+    "pages/login/login",
+    "pages/robot/robot",
+    "pages/wenzhang/wenzhang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d36e2b",
+    "navigationBarTitleText": "果然乎",
+    "navigationBarTextStyle": "black"
+
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/shouye.png",
+        "selectedIconPath": "icon/_shouye.png"
+      },
+      {
+        "pagePath": "pages/kepu/kepu",
+        "text": "科普",
+        "iconPath": "icon/xuexi.png",
+        "selectedIconPath": "icon/_xuexi.png"
+      },
+      {
+        "pagePath": "pages/wenda/wenda",
+        "text": "问答",
+        "iconPath": "icon/wenda.png",
+        "selectedIconPath": "icon/_wenda.png"
+      },
+      {
+        "pagePath": "pages/shequ/shequ",
+        "text": "社区",
+        "iconPath": "icon/shequ.png",
+        "selectedIconPath": "icon/_shequ.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/_my.png"
+      }
+    ],
+    "selectedColor": "#d36e2b"
+  },
+  "sitemapLocation": "sitemap.json"
+}

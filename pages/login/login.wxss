@@ -1,0 +1,8 @@
+/* pages/login/login.wxss */
+.pyg_home{
+  top: 0; 
+}
+button{
+  margin-top: 150rpx;
+  width:70%;
+}

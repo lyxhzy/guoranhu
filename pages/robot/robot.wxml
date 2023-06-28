@@ -1,0 +1,10 @@
+<!--pages/robot/robot.wxml-->
+<view class='msgBox'>
+   <image class="adverseHeading" src="../../icon/root.png" ></image>
+   <view class="outputItem">{{answer}}</view>
+</view>
+<view class="inputBox">
+  <input class="inputContent" type="text"  bindinput="getInputValue" value="{{question}}">
+  </input>
+  <button hover-class="none" class="btnSendMsg" bindtap="sendMsg">发送</button>
+</view>

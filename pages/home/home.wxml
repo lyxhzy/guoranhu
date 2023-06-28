@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<view class="v1">
+<navigator> 
+  <image src="../../icon/paizhao.png" class="v2"></image>
+</navigator>
+</view>
